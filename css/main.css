@@ -1,0 +1,67 @@
+@charset "UTF-8";
+* { margin:0; padding:0; box-sizing:border-box;}
+li { list-style:none; }
+a { text-decoration:none;}
+body { font-family:Verdana, Geneva, Tahoma, sans-serif; }
+img { max-width:100%;}
+
+header { background:url('../img/guccimain.jpg') no-repeat center 20%/cover; padding:70px 0 100px; }
+
+header h2 { font-size:4.5vw; padding-top:90px; text-shadow:0 0 5px rgb(0 0 0 /80%);}
+header h4 { font-size:16px; }
+
+section { padding:70px 0; }
+section h2 { font-size:36px; line-height:1.4; margin-bottom:60px;}
+section p { font-size:14px; line-height:1.4; color:#333}
+section p .bi { color:#0d6efd; padding-right:10px; }
+section p.mt { margin-top:80px; }
+
+section#app {}
+section#app img { width:300px; margin-bottom:50px }
+section#app h3 { font-size:30px;  margin-bottom:20px}
+section#app p { font-size:13px; line-height:1.6;  margin-bottom:40px}
+section#app a { font-size:13px; }
+
+.outro { padding-bottom:100px;}
+.outro h3  { font-size:32px; }
+.outro p { font-size:16px; }
+.outro a { font-size:14px; }
+
+footer > div { padding:4.5vw 0 10vw; border-top:1px solid #424547}
+footer h3 { color:#fff; font-size:18px; margin-bottom:25px;}
+footer a ,footer p { color:#8b98a3; }
+footer ul { padding-left:0; }
+footer li { margin-bottom:10px}
+footer li a:hover { color:#8b98a3; text-decoration:underline ;}
+.sns {}
+.sns a { display:inline-block; background:#2a2f3d; width:32px; height:32px; color:#fff; line-height:32px; border-radius:50%; text-align:center; margin-right:5px; transition:0.2s; }
+.sns a:hover { background:#939aac; } 
+
+
+
+/* 1200px 이상*/
+@media ( min-width:1200px) {
+    header { padding:90px 0 100px; }
+    header h2 { font-size:3.5vw }
+    header h4 { font-size:18px; }
+}
+
+/* 767px 이하*/
+@media ( max-width:767px) {
+    header { padding:50px 0 70px; }
+    header h2 { font-size:30px }
+    header h4 { font-size:12px; }
+    header button { transform: scale(0.7);}
+    header p { font-size:14px;}
+
+    section { padding:40px 0; }
+    section h2 { font-size:24px; margin-bottom:30px;}
+    section p { font-size:12px; }
+    section p.mt { margin-top:40px; }
+
+    .outro { padding-bottom:60px;}
+    .outro h3  { font-size:22px; }
+    .outro p { font-size:12px; }
+
+    .s4 { padding-bottom:100px; }
+}
